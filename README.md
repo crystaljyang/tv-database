@@ -8,4 +8,4 @@ and actresses have acted in. In our implementation of this design, we combined t
 review and rating functionality into one, and users now leave ratings when they write
 their reviews.
 
-<img src="https://i.imgur.com/jItQ4vq.jpg" width="200" height="400" />
+<center><img src="https://i.imgur.com/jItQ4vq.jpg" width="400" height="300" /></center>
