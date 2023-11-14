@@ -1,4 +1,4 @@
-# tv-database
+# tv show database
 
 This program connects to a website which acts as a TV show database, where 
 visitors can find information on TV shows, their episodes, and leave reviews. 
