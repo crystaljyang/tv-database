@@ -1,0 +1,36 @@
+<html>
+  <style>
+    body{ 
+      font-size: 15pt;
+      font-family: arial;
+    }
+  </style>
+
+
+<body>
+  <h1>Reviews</h1>
+  <a href="/submit_review">Submit a Review</a>
+
+  <div>
+    {% for id in tv_id %}
+    <div><h2>{{tv_name[id]}}</h2></div>
+    <div>
+        {% for id2 in review_id %}
+        {% if id == review_to_tvid[id2] %}
+        <h3>{{title[id2]}}</h3>
+        <i>Written by: {{user[id2]}}, Rating: {{rating[id2]}}</i>
+        <p>Tv show: {{tv_name[id]}}</p>
+        <p>Episode: {{episode[id2]}}</p>
+        <p>{{review[id2]}}</p>
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+  <p><a href="/">Homepage</a></p>
+
+
+</body>
+
+
+</html>
