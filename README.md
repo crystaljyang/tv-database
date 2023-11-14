@@ -7,3 +7,5 @@ TV shows directed by their favourite directors, or what shows their favourite ac
 and actresses have acted in. In our implementation of this design, we combined the 
 review and rating functionality into one, and users now leave ratings when they write
 their reviews.
+
+![alt text](https://i.imgur.com/jItQ4vq.jpg)
