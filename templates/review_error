@@ -1,0 +1,20 @@
+<html>
+  <style>
+    body{ 
+      font-size: 15pt;
+      font-family: arial;
+    }
+  </style>
+
+
+<body>
+    <h1>Homepage</h1>
+    <p>It looks like there was an error submitting your review.</p>
+
+    <p><a href="/">Homepage</a></p>
+
+
+</body>
+
+
+</html>
